@@ -2778,7 +2778,7 @@
 
 @media (max-width: 1080px) {
   .w3l-hero-headers-9 .slide {
-    min-height: 550px; }
+    /* min-height: 550px; } */
   .w3l-hero-headers-9 .banner-text h2 {
     font-size: 70px;
     line-height: 80px; }
@@ -2805,7 +2805,7 @@
     font-size: 50px;
     line-height: 60px; }
   .w3l-hero-headers-9 .slide {
-    min-height: 500px; } }
+    /* min-height: 500px; } } */
 
 @media (max-width: 767px) {
   .w3l-hero-headers-9 .banner-text h5 {
@@ -3001,6 +3001,9 @@
 
 .w3l-covers-18 .img-box h5 a:hover {
   color: #F9C80E; }
+
+  .w3l-covers-18 .img-box  {
+  text-align: center; }
 
 @media screen and (max-width: 992px) {
   .w3l-covers-18 .img-box:nth-child(3) {

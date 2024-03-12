@@ -2834,8 +2834,9 @@
   .w3l-hero-headers-9 .banner-text h5 {
     font-size: 35px;
     line-height: 45px; }
-  .w3l-hero-headers-9 .slide {
-    min-height: 450px; } }
+  /* .w3l-hero-headers-9 .slide {
+    min-height: 450px; }  */
+  }
 
 /*team-15 */
 .w3l-teams-15 {
@@ -11965,7 +11966,7 @@ a img {
 
 img {
   max-width: 100%;
-  border-radius: 10px; }
+  /* border-radius: 10px; } */}
 
 .noscroll {
   min-height: 100vh;

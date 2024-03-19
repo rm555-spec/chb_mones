@@ -2947,12 +2947,17 @@
   margin: 25px auto 0px;
   color: #ddd; }
 
+ 
+
 @media (max-width: 1280px) {
   .w3l-call-to-action_9 .title-head h3 {
     font-size: 60px;
     line-height: 70px; }
   .w3l-call-to-action_9 .call-w3 {
-    padding: 100px 0px; } }
+    padding: 100px 0px; }
+    /* .w3l-covers-18 .img-box h5  {
+      display:block; } */
+   }
 
 @media (max-width: 991px) {
   .w3l-call-to-action_9 .title-head h3 {
@@ -2992,9 +2997,7 @@
   font-size: 22px;
   line-height: 32px;
   color: var(--para-sub-color);
-  
-  /* color:  #391a0e !important; */
-  display: inline-block;
+  display:block;
   font-weight: 600; }
 
 .w3l-covers-18 .img-box:nth-child(4), .w3l-covers-18 .img-box:nth-child(5), .w3l-covers-18 .img-box:nth-child(6) {
@@ -3004,7 +3007,9 @@
   color: #F9C80E; }
 
 .w3l-covers-18 .img-box  {
-    text-align: center; }
+    text-align: center; 
+    margin-top:1.5rem;
+  }
 
 @media screen and (max-width: 992px) {
   .w3l-covers-18 .img-box:nth-child(3) {
@@ -4589,6 +4594,7 @@
     line-height: 32px;
     color: var(--para-sub-color);
     display: inline-block;
+   
     font-weight: 600; }
   .w3l-services-two .img-box:nth-child(4), .w3l-services-two .img-box:nth-child(5), .w3l-services-two .img-box:nth-child(6) {
     margin-top: 35px; }
@@ -11965,7 +11971,7 @@ a img {
   display: block; }
 
 img {
-  max-width: 100%;
+  max-width: 85%;
   /* border-radius: 10px; } */}
 
 .noscroll {
@@ -12047,16 +12053,31 @@ a.action-sub-button:hover, a.action-sub-button:active {
   border: 2px solid #EA3546; }
 
 p.para {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   color: var(--para-color); 
 }
 
+p.desc{
+  font-weight:600;
+}
+
+p.mida{
+  font-weight:400;
+  font-size: 0.8rem;
+}
+
+p.pes{
+  font-weight:400;
+  font-size: 0.8rem;
+}
+
 p.price{
-  font-size:2rem;
-  font-weight:800;
+  font-size:1.5rem;
+  font-weight:700;
   line-height: 34px;
   color: #391a0e; 
+
 }
 
 
@@ -12147,15 +12168,30 @@ h3.color-white {
   p.tiltle-para {
     font-size: 16px;
     margin: 20px auto 0px; } }
+    /* img{
+      max-width:80%;
+    } */
 
 @media (max-width: 480px) {
   h3.header-name {
     font-size: 30px;
-    line-height: 40px; } }
+    line-height: 40px; }
+    p.desc{
+      font-size:0.8rem;
+    }
+  
+  }
 
 @media (max-width: 384px) {
   .logo-widget h1 a.brand-logo {
     font-size: 32px;
-    line-height: 42px; } }
+    line-height: 42px; } 
+    img{
+      max-width:95%;
+    }
+    p.desc{
+      font-size:0.8rem;
+    }
+  }
 
 /*# sourceMappingURL=style-freedom.css.map */
